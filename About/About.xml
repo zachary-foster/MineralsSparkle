@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>MineralsAreShiny: Crystals and gems</name>
+  <author>Zachary S. L. Foster</author>
+	<packageId>zacharyfoster.mineralsareshiny</packageId>
+  <description>Additions of crystals that can be mined for valuable gems.</description>
+  <url>https://github.com/zachary-foster/MineralsAreShiny</url>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+    </li>
+    <li>
+       <packageId>zacharyfoster.mineralsframework</packageId>
+       <displayName>MineralsFramework</displayName>
+       <downloadUrl>https://github.com/zachary-foster/MineralsFramework</downloadUrl>
+    </li>
+  </modDependencies>
+	<loadAfter>
+		<li>sarg.alphabiomes</li>
+		<li>zacharyfoster.mineralsframework</li>
+	</loadAfter>
+</ModMetaData>

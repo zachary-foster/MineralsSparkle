@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <TipSetDef>
+    <defName>MineralsRockTips</defName>
+    <tips>
+      <li>Rare and valuable minerals are more likely to be found far away from settlements and in extreme biomes.</li>
+      <li>Giant versions of some crystals can be found which can be studied to increase research speed.</li>
+    </tips>
+  </TipSetDef>
+  
+</Defs>
