@@ -331,7 +331,7 @@
       </li>
     </randomlyDropResources>
     <!-- Minimum distance from the nearest settlement the inital spawn needs to be in order to be spawned at the maximum probablity -->
-    <otherSettlementMiningRadius>11</otherSettlementMiningRadius>
+    <otherSettlementMiningRadius>13</otherSettlementMiningRadius>
   </ThingDef>
 
 
@@ -396,7 +396,7 @@
       </li>
     </randomlyDropResources>
     <!-- Minimum distance from the nearest settlement the inital spawn needs to be in order to be spawned at the maximum probablity -->
-    <otherSettlementMiningRadius>14</otherSettlementMiningRadius>
+    <otherSettlementMiningRadius>15</otherSettlementMiningRadius>
   </ThingDef>
 
 
@@ -444,7 +444,7 @@
       <li>NoticeMineral_Event</li>
     </tags>
     <!-- Minimum distance from the nearest settlement the inital spawn needs to be in order to be spawned at the maximum probablity -->
-    <otherSettlementMiningRadius>3</otherSettlementMiningRadius>
+    <otherSettlementMiningRadius>5</otherSettlementMiningRadius>
   </ThingDef>
 
   <ThingDef ParentName="CorundumBase" Class="MineralsFramework.ThingDef_StaticMineral">
@@ -478,7 +478,7 @@
       </li>
     </randomlyDropResources>
     <!-- Minimum distance from the nearest settlement the inital spawn needs to be in order to be spawned at the maximum probablity -->
-    <otherSettlementMiningRadius>13</otherSettlementMiningRadius>
+    <otherSettlementMiningRadius>18</otherSettlementMiningRadius>
   </ThingDef>
 
 
@@ -513,7 +513,7 @@
       </li>
     </randomlyDropResources>
     <!-- Minimum distance from the nearest settlement the inital spawn needs to be in order to be spawned at the maximum probablity -->
-    <otherSettlementMiningRadius>13</otherSettlementMiningRadius>
+    <otherSettlementMiningRadius>15</otherSettlementMiningRadius>
   </ThingDef>
 
 
@@ -544,7 +544,7 @@
       </li>
     </randomlyDropResources>
     <!-- Minimum distance from the nearest settlement the inital spawn needs to be in order to be spawned at the maximum probablity -->
-    <otherSettlementMiningRadius>9</otherSettlementMiningRadius>
+    <otherSettlementMiningRadius>12</otherSettlementMiningRadius>
   </ThingDef>
 
 
@@ -621,7 +621,7 @@
       </li>
     </randomlyDropResources>
     <!-- Minimum distance from the nearest settlement the inital spawn needs to be in order to be spawned at the maximum probablity -->
-    <otherSettlementMiningRadius>18</otherSettlementMiningRadius>
+    <otherSettlementMiningRadius>20</otherSettlementMiningRadius>
   </ThingDef>
 
 
@@ -679,7 +679,7 @@
       <li>NoticeMineral_Event</li>
     </tags>
     <!-- Minimum distance from the nearest settlement the inital spawn needs to be in order to be spawned at the maximum probablity -->
-    <otherSettlementMiningRadius>8</otherSettlementMiningRadius>
+    <otherSettlementMiningRadius>10</otherSettlementMiningRadius>
   </ThingDef>
 
 </Defs>

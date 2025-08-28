@@ -233,6 +233,8 @@
       <li>crystal</li>
       <li>NoticeMineral_Event</li>
     </tags>
+    <!-- at what snow depth the mineral is completely hidden -->
+    <hiddenInSnowThreshold>0.7</hiddenInSnowThreshold>
   </ThingDef>
   
   <ThingDef Name="CorundumBase" ParentName="EmbeddedMineralBase" Class="MineralsFramework.ThingDef_StaticMineral" Abstract="True">
