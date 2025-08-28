@@ -23,8 +23,6 @@
     <building>
       <isInert>true</isInert>
       <canBuildNonEdificesUnder>false</canBuildNonEdificesUnder>
-      <isNaturalRock>true</isNaturalRock>
-      <isResourceRock>true</isResourceRock>
       <mineableThing>SmallFossil</mineableThing>
       <mineableYield>1</mineableYield>
       <mineableNonMinedEfficiency>0</mineableNonMinedEfficiency>
@@ -128,8 +126,6 @@
     <building>
       <isInert>true</isInert>
       <canBuildNonEdificesUnder>false</canBuildNonEdificesUnder>
-      <isNaturalRock>true</isNaturalRock>
-      <isResourceRock>true</isResourceRock>
       <mineableThing>SmallFossil</mineableThing>
       <mineableYield>1</mineableYield>
       <mineableNonMinedEfficiency>0</mineableNonMinedEfficiency>
@@ -289,8 +285,6 @@
     <building>
       <isInert>true</isInert>
       <canBuildNonEdificesUnder>false</canBuildNonEdificesUnder>
-      <isNaturalRock>true</isNaturalRock>
-      <isResourceRock>true</isResourceRock>
       <mineableThing>SmallFossil</mineableThing>
       <mineableYield>1</mineableYield>
       <mineableNonMinedEfficiency>0</mineableNonMinedEfficiency>
