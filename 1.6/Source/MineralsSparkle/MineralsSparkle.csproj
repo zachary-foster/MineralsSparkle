@@ -7,8 +7,8 @@
     <ProjectGuid>{E692580F-9B37-43F0-ACF5-FEA730E4F193}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MineralsAreShiny</RootNamespace>
-    <AssemblyName>MineralsAreShiny</AssemblyName>
+    <RootNamespace>MineralsSparkle</RootNamespace>
+    <AssemblyName>MineralsSparkle</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>

@@ -7,7 +7,7 @@ using RimWorld;      // RimWorld specific functions
 using Verse;         // RimWorld universal objects 
 using MineralsFramework;
 
-namespace MineralsAreShiny
+namespace MineralsSparkle
 {
     /// <summary>
     /// BigMineral class

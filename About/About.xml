@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>MineralsAreShiny: Crystals and gems</name>
+  <name>Minerals Sparkle</name>
   <author>Zachary S. L. Foster</author>
-	<packageId>zacharyfoster.mineralsareshiny</packageId>
+	<packageId>zacharyfoster.mineralssparkle</packageId>
   <description>Additions of crystals that can be mined for valuable gems.</description>
-  <url>https://github.com/zachary-foster/MineralsAreShiny</url>
+  <url>https://github.com/zachary-foster/MineralsSparkle</url>
   <supportedVersions>
     <li>1.6</li>
   </supportedVersions>
