@@ -3,7 +3,6 @@
   
   <ThingDef Name="QuartzBase" ParentName="MF_StaticMineralBase" Class="MineralsFramework.ThingDef_StaticMineral" Abstract="True">
     <uiIconPath>Things/Mineral/QuartzCrystal/QuartzCrystalA</uiIconPath>
-    <altitudeLayer>LowPlant</altitudeLayer>
     <fillPercent>0.1</fillPercent>
     <pathCost>40</pathCost>
     <!--How far away it can spawn from an existing location-->
@@ -48,6 +47,9 @@
     </allowedTerrains>
     <!-- The terrains this must be near to, but not necessarily on -->
     <neededNearbyTerrains>
+			<li>Granite</li>
+			<li>Marble</li>
+			<li>Basalt</li>
 			<li>SolidGranite</li>
 			<li>SolidMarble</li>
 			<li>SolidBasalt</li>
@@ -72,10 +74,10 @@
     <mustBeUnderThickRoof>false</mustBeUnderThickRoof>
     <mustBeUnroofed>false</mustBeUnroofed>
     <!-- The maximum number of images that will be printed per square -->
-    <maxMeshCount>35</maxMeshCount>
+    <maxMeshCount>30</maxMeshCount>
     <!-- The size range -->
     <visualSizeRange>
-      <min>0.25</min>
+      <min>0.3</min>
       <max>0.6</max>
     </visualSizeRange>
     <visualClustering>0.3</visualClustering>
@@ -101,7 +103,6 @@
   
   <ThingDef Name="TourmalineBase" ParentName="MF_StaticMineralBase" Class="MineralsFramework.ThingDef_StaticMineral" Abstract="True">
     <uiIconPath>Things/Mineral/TourmalineCrystal/TourmalineCrystalA</uiIconPath>
-    <altitudeLayer>LowPlant</altitudeLayer>
     <fillPercent>0.1</fillPercent>
     <pathCost>40</pathCost>
     <!--How far away it can spawn from an existing location-->
@@ -151,10 +152,10 @@
     <mustBeUnderThickRoof>false</mustBeUnderThickRoof>
     <mustBeUnroofed>false</mustBeUnroofed>
     <!-- The maximum number of images that will be printed per square -->
-    <maxMeshCount>15</maxMeshCount>
+    <maxMeshCount>12</maxMeshCount>
     <!-- The size range -->
     <visualSizeRange>
-      <min>0.2</min>
+      <min>0.3</min>
       <max>0.6</max>
     </visualSizeRange>
     <visualClustering>0.5</visualClustering>
@@ -206,11 +207,11 @@
     <mustBeUnderThickRoof>false</mustBeUnderThickRoof>
     <mustBeUnroofed>false</mustBeUnroofed>
     <!-- The maximum number of images that will be printed per square -->
-    <maxMeshCount>18</maxMeshCount>
+    <maxMeshCount>15</maxMeshCount>
     <!-- The size range -->
     <visualSizeRange>
-      <min>0.4</min>
-      <max>0.7</max>
+      <min>0.45</min>
+      <max>0.75</max>
     </visualSizeRange>
     <visualClustering>0.4</visualClustering>
     <!-- between 0 and 1. 0 = uniform distribution, 1 = normal distribution -->

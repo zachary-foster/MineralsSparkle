@@ -32,7 +32,6 @@
       <li>(205,175,150)</li>
       <li>(215,195,160)</li>
     </randomColorsTwo>
-    <altitudeLayer>LowPlant</altitudeLayer>
     <castEdgeShadows>false</castEdgeShadows>
     <fillPercent>0.1</fillPercent>
     <coversFloor>false</coversFloor>
