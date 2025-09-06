@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingCategoryDef>
+		<defName>MS_Gemstones</defName>
+		<label>gemstones</label>
+		<parent>ResourcesRaw</parent>
+		<iconPath>Things/Item/Resource/RoughGem/RoughGem_b</iconPath>
+  </ThingCategoryDef>
+
+</Defs>
