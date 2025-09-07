@@ -15,14 +15,17 @@
     <soundDrop>Stone_Drop</soundDrop>
     <useHitPoints>true</useHitPoints>
     <statBases>
-      <MarketValue>200</MarketValue>
+      <MarketValue>100</MarketValue>
       <DeteriorationRate>0</DeteriorationRate>
       <Flammability>0</Flammability>
       <Mass>4.0</Mass>
       <Beauty>5</Beauty>
     </statBases>
-    <stackLimit>20</stackLimit>
+    <stackLimit>10</stackLimit>
     <smallVolume>false</smallVolume>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
   </ThingDef>
   
 
