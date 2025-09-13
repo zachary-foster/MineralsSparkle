@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  
-  
+
+
   <RecipeDef>
-    <defName>MakeCutGems_Hand</defName>
+    <defName>MS_MakeCutGems_Hand</defName>
     <label>Cut gems by hand</label>
     <description>Create cut gems from rough gems by hand. Very slow and difficult.</description>
     <jobString>Cutting gems.</jobString>
@@ -18,7 +18,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>RoughGem</li>
+            <li>MS_RoughGem</li>
           </thingDefs>
         </filter>
         <count>1</count>
@@ -26,12 +26,12 @@
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>RoughGem</li>
+        <li>MS_RoughGem</li>
       </thingDefs>
     </fixedIngredientFilter>
     <defaultIngredientFilter>
       <thingDefs>
-        <li>RoughGem</li>
+        <li>MS_RoughGem</li>
       </thingDefs>
     </defaultIngredientFilter>
     <products>
@@ -44,10 +44,10 @@
     <workSkillLearnFactor>0.8</workSkillLearnFactor>
     <!-- <researchPrerequisite>ZF_HardStoneCuttingI</researchPrerequisite> -->
   </RecipeDef>
-  
-  
+
+
   <RecipeDef>
-    <defName>MakeCutGems_Electric</defName>
+    <defName>MS_MakeCutGems_Electric</defName>
     <label>Cut gems with power tools</label>
     <description>Create cut gems from rough gems using power tools. Quite slow and difficult.</description>
     <jobString>Cutting gems.</jobString>
@@ -62,7 +62,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>RoughGem</li>
+            <li>MS_RoughGem</li>
           </thingDefs>
         </filter>
         <count>1</count>
@@ -70,12 +70,12 @@
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>RoughGem</li>
+        <li>MS_RoughGem</li>
       </thingDefs>
     </fixedIngredientFilter>
     <defaultIngredientFilter>
       <thingDefs>
-        <li>RoughGem</li>
+        <li>MS_RoughGem</li>
       </thingDefs>
     </defaultIngredientFilter>
     <products>
@@ -88,10 +88,10 @@
     <workSkillLearnFactor>0.8</workSkillLearnFactor>
     <!-- <researchPrerequisite>ZF_HardStoneCuttingI</researchPrerequisite> -->
   </RecipeDef>
-  
-  
+
+
   <RecipeDef>
-    <defName>MakeCutUltrahardGems_Electric</defName>
+    <defName>MS_MakeCutUltrahardGems_Electric</defName>
     <label>Cut ultrahard gems with power tools</label>
     <description>Create cut ultrahard gems from rough ultrahard gems using power tools. Very slow and difficult.</description>
     <jobString>Cutting ultrahard gems.</jobString>
@@ -106,7 +106,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>RoughUltrahardGem</li>
+            <li>MS_RoughUltrahardGem</li>
           </thingDefs>
         </filter>
         <count>1</count>
@@ -114,12 +114,12 @@
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>RoughUltrahardGem</li>
+        <li>MS_RoughUltrahardGem</li>
       </thingDefs>
     </fixedIngredientFilter>
     <defaultIngredientFilter>
       <thingDefs>
-        <li>RoughUltrahardGem</li>
+        <li>MS_RoughUltrahardGem</li>
       </thingDefs>
     </defaultIngredientFilter>
     <products>
@@ -132,9 +132,9 @@
     <workSkillLearnFactor>0.8</workSkillLearnFactor>
     <!-- <researchPrerequisite>ZF_HardStoneCuttingII</researchPrerequisite> -->
   </RecipeDef>
-  
+
   <!-- <RecipeDef> -->
-  <!--   <defName>MakeRoughGem</defName> -->
+  <!--   <defName>MakeMS_RoughGem</defName> -->
   <!--   <label>Make Rough Gems</label> -->
   <!--   <description>Make rough gems using extreme heat and pressures. This is a slow and tedious processs.</description> -->
   <!--   <jobString>Making rough gems.</jobString> -->
@@ -181,7 +181,7 @@
   <!--     </categories> -->
   <!--   </defaultIngredientFilter> -->
   <!--   <products> -->
-  <!--     <RoughGem>3</RoughGem> -->
+  <!--     <MS_RoughGem>3</MS_RoughGem> -->
   <!--   </products> -->
   <!--   <skillRequirements> -->
   <!--     <Crafting>10</Crafting> -->
@@ -192,7 +192,7 @@
   <!-- </RecipeDef> -->
 
   <!-- <RecipeDef> -->
-  <!--   <defName>MakeRoughUltrahardGem</defName> -->
+  <!--   <defName>MakeMS_RoughUltrahardGem</defName> -->
   <!--   <label>Make Rough Ultrahard Gem</label> -->
   <!--   <description>Make a rough ultrahard gem using extreme heat and pressures. This is a slow and tedious processs.</description> -->
   <!--   <jobString>Making a rough ultrahard gem.</jobString> -->
@@ -224,7 +224,7 @@
   <!--     </thingDefs> -->
   <!--   </defaultIngredientFilter> -->
   <!--   <products> -->
-  <!--     <RoughUltrahardGem>1</RoughUltrahardGem> -->
+  <!--     <MS_RoughUltrahardGem>1</MS_RoughUltrahardGem> -->
   <!--   </products> -->
   <!--   <skillRequirements> -->
   <!--     <Crafting>15</Crafting> -->
@@ -233,5 +233,5 @@
   <!--   <workSkillLearnFactor>0.8</workSkillLearnFactor> -->
   <!--   <researchPrerequisite>ZF_HardStoneCuttingIII</researchPrerequisite> -->
   <!-- </RecipeDef> -->
-  
+
 </Defs>

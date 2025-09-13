@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-  
+
+
   <ThingDef Name="MS_GemBase" ParentName="ResourceBase" Abstract="True">
     <altitudeLayer>ItemImportant</altitudeLayer>
     <soundInteract>Silver_Drop</soundInteract>
@@ -15,9 +16,10 @@
       <li>MS_Gemstones</li>
     </thingCategories>
   </ThingDef>
-  
-  <ThingDef ParentName="MS_GemBase">
-    <defName>RoughGem</defName>
+
+
+  <ThingDef Name="MS_RoughGem" ParentName="MS_GemBase">
+    <defName>MS_RoughGem</defName>
     <label>Rough Gem</label>
     <description>Uncut precious crystal. Can be found when mining.</description>
     <graphicData>
@@ -27,14 +29,14 @@
     <statBases>
       <MarketValue>50</MarketValue>
       <Mass>0.2</Mass>
-      <Beauty>2</Beauty>
+      <Beauty>1</Beauty>
     </statBases>
-    <stackLimit>50</stackLimit>
+    <stackLimit>25</stackLimit>
   </ThingDef>
-  
-  
-  <ThingDef ParentName="MS_GemBase">
-    <defName>CutGem</defName>
+
+
+  <ThingDef Name="MS_CutGem" ParentName="MS_GemBase">
+    <defName>MS_CutGem</defName>
     <label>Cut Gem</label>
     <description>A cut gem. Generally used to decorate rich people and impress aspiring raiders.</description>
     <graphicData>
@@ -44,14 +46,14 @@
     <statBases>
       <MarketValue>200</MarketValue>
       <Mass>0.05</Mass>
-      <Beauty>10</Beauty>
+      <Beauty>5</Beauty>
     </statBases>
-    <stackLimit>100</stackLimit>
+    <stackLimit>50</stackLimit>
   </ThingDef>
-  
-  
-  <ThingDef ParentName="MS_GemBase">
-    <defName>RoughUltrahardGem</defName>
+
+
+  <ThingDef Name="MS_RoughUltrahardGem" ParentName="MS_GemBase">
+    <defName>MS_RoughUltrahardGem</defName>
     <label>Rough Ultrahard Gem</label>
     <description>An uncut precious crystal. This type is very hard and valuable. Can be found when mining some rare minerals.</description>
     <graphicData>
@@ -59,18 +61,18 @@
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <statBases>
-      <MarketValue>200</MarketValue>
+      <MarketValue>100</MarketValue>
       <Mass>0.2</Mass>
-      <Beauty>3</Beauty>
+      <Beauty>1</Beauty>
     </statBases>
-    <stackLimit>50</stackLimit>
+    <stackLimit>25</stackLimit>
   </ThingDef>
-  
 
-  <ThingDef ParentName="MS_GemBase">
-    <defName>CutUltrahardGem</defName>
+
+  <ThingDef Name="MS_CutUltrahardGem" ParentName="MS_GemBase">
+    <defName>MS_CutUltrahardGem</defName>
     <label>Cut Ultrahard Gem</label>
-    <description>A cut ultrahard gem. Useful for many high-tech applications and very valuable.</description>
+    <description>A cut ultrahard gem. Useful for some high-tech applications and very valuable.</description>
     <graphicData>
       <texPath>Things/Item/Resource/CutGem</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -78,9 +80,10 @@
     <statBases>
       <MarketValue>500</MarketValue>
       <Mass>0.05</Mass>
-      <Beauty>20</Beauty>
+      <Beauty>7</Beauty>
     </statBases>
-    <stackLimit>100</stackLimit>
+    <stackLimit>50</stackLimit>
   </ThingDef>
-  
+
+
 </Defs>
