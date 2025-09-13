@@ -17,20 +17,20 @@
   <Operation Class="PatchOperationAdd">
   	<xpath>Defs/ThingDef[defName = "SimpleResearchBench"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
   	<value>
-      <li>MediumFossilTrophy</li>
-      <li>LargeFossilTrophy</li>
-      <li>BigQuartzCrystalTrophy</li>
-      <li>BigAmethystCrystalTrophy</li>
+      <li>MS_MediumFossilSpecimen</li>
+      <li>MS_LargeFossilSpecimen</li>
+      <li>MS_BigQuartzCrystalSpecimen</li>
+      <li>MS_BigAmethystCrystalSpecimen</li>
   	</value>
   </Operation>
 
   <Operation Class="PatchOperationAdd">
   	<xpath>Defs/ThingDef[defName = "HiTechResearchBench"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
   	<value>
-      <li>MediumFossilTrophy</li>
-      <li>LargeFossilTrophy</li>
-      <li>BigQuartzCrystalTrophy</li>
-      <li>BigAmethystCrystalTrophy</li>
+      <li>MS_MediumFossilSpecimen</li>
+      <li>MS_LargeFossilSpecimen</li>
+      <li>MS_BigQuartzCrystalSpecimen</li>
+      <li>MS_BigAmethystCrystalSpecimen</li>
   	</value>
   </Operation>
 

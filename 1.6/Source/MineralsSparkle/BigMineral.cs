@@ -82,7 +82,7 @@ namespace MineralsSparkle
         // The radius that will be searched to replace things
         public int replaceRadius = 1;
         // The minmum propotion of things in radius to replace for a replacement to happen 
-        public float repalceThreshold = 0.3f;
+        public float replaceThreshold = 0.3f;
         // How likly an extraction is to be successful 
         public float extractionDifficulty = 0.9f;
 
@@ -127,7 +127,7 @@ namespace MineralsSparkle
                     }
                 }
             }
-            if (((float)replaceCount) / ((float)spotsChecked) > repalceThreshold)
+            if (((float)replaceCount) / ((float)spotsChecked) > replaceThreshold)
             {
                 //Log.Message(this.defName + " can replace at " + position, true);
                 return(toReplace);

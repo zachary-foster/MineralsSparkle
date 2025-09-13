@@ -95,7 +95,7 @@
     <!-- Other resources it might drop -->
     <randomlyDropResources>
       <li>
-        <ResourceDefName>MS_SmallFossil</ResourceDefName>
+        <ResourceDefName>MS_SmallFossilResource</ResourceDefName>
         <DropProbability>2.0</DropProbability>
         <CountPerDrop>1</CountPerDrop>
         <MinMiningSkill>5</MinMiningSkill>
@@ -106,7 +106,7 @@
   </ThingDef>
 
 
-  <ThingDef Name="MS_MediumFossil" ParentName="MF_BigFossilBase" Class="MineralsFramework.ThingDef_BigMineral">
+  <ThingDef Name="MS_MediumFossil" ParentName="MF_BigFossilBase" Class="MineralsFramework.ThingDef_StaticMineral">
     <defName>MS_MediumFossil</defName>
     <label>Medium Fossil</label>
     <description>The remains of a long dead creature. Life on this rimworld must be quite ancient.</description>
@@ -159,7 +159,7 @@
         <Minified>true</Minified>
       </li>
       <li>
-        <ResourceDefName>MS_SmallFossil</ResourceDefName>
+        <ResourceDefName>MS_SmallFossilResource</ResourceDefName>
         <DropProbability>4.0</DropProbability>
         <CountPerDrop>1</CountPerDrop>
         <MinMiningSkill>5</MinMiningSkill>
@@ -194,7 +194,7 @@
       <MarketValue>1000</MarketValue>
     </statBases>
     <costList>
-      <MS_SmallFossil>4</MS_SmallFossil>
+      <MS_SmallFossilResource>4</MS_SmallFossilResource>
     </costList>
     <comps>
       <li Class="CompProperties_Facility">
@@ -210,7 +210,7 @@
   </ThingDef>
 
 
-  <ThingDef Name="MS_LargeFossil" ParentName="MF_BigFossilBase" Class="MineralsFramework.ThingDef_BigMineral">
+  <ThingDef Name="MS_LargeFossil" ParentName="MF_BigFossilBase" Class="MineralsFramework.ThingDef_StaticMineral">
     <defName>MS_LargeFossil</defName>
     <label>Large Fossil</label>
     <description>The remains of a large creature, long dead. Life on this rimworld must be ancient and complex.</description>
@@ -266,7 +266,7 @@
         <Minified>true</Minified>
       </li>
       <li>
-        <ResourceDefName>MS_SmallFossil</ResourceDefName>
+        <ResourceDefName>MS_SmallFossilResource</ResourceDefName>
         <DropProbability>6.0</DropProbability>
         <CountPerDrop>1</CountPerDrop>
         <MinMiningSkill>5</MinMiningSkill>
@@ -311,7 +311,7 @@
     </statBases>
     <size>(2,2)</size>
     <costList>
-      <MS_SmallFossil>6</MS_SmallFossil>
+      <MS_SmallFossilResource>6</MS_SmallFossilResource>
     </costList>
     <comps>
       <li Class="CompProperties_Facility">

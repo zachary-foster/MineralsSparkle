@@ -35,7 +35,7 @@
       </thingDefs>
     </defaultIngredientFilter>
     <products>
-      <CutGem>1</CutGem>
+      <MS_CutGem>1</MS_CutGem>
     </products>
     <skillRequirements>
       <Crafting>10</Crafting>
@@ -79,7 +79,7 @@
       </thingDefs>
     </defaultIngredientFilter>
     <products>
-      <CutGem>1</CutGem>
+      <MS_CutGem>1</MS_CutGem>
     </products>
     <skillRequirements>
       <Crafting>5</Crafting>
@@ -123,7 +123,7 @@
       </thingDefs>
     </defaultIngredientFilter>
     <products>
-      <CutUltrahardGem>1</CutUltrahardGem>
+      <MS_CutUltrahardGem>1</MS_CutUltrahardGem>
     </products>
     <skillRequirements>
       <Crafting>12</Crafting>

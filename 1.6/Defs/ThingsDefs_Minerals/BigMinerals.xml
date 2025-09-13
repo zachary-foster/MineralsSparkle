@@ -71,7 +71,7 @@
       <MarketValue>800</MarketValue>
     </statBases>
     <costList>
-      <RoughGem>6</RoughGem>
+      <MS_RoughGem>6</MS_RoughGem>
     </costList>
     <comps>
       <li Class="CompProperties_Facility">
@@ -134,8 +134,8 @@
   </ThingDef>
 
 
-  <ThingDef Name="MS_BigAmethystCrystatSpecimen" ParentName="MF_MineralSpecimenBase" Class="MineralsFramework.ThingDef_MineralSpecimen">
-    <defName>MS_BigAmethystCrystatSpecimen</defName>
+  <ThingDef Name="MS_BigAmethystCrystalSpecimen" ParentName="MF_MineralSpecimenBase" Class="MineralsFramework.ThingDef_MineralSpecimen">
+    <defName>MS_BigAmethystCrystalSpecimen</defName>
     <label>Giant Amethyst Crystal</label>
     <description>An huge crystal of Amethyst that has been skillfully detached in one peice. It is very beautiful and might be valuable to the right trader.</description>
     <graphicData>
@@ -157,7 +157,7 @@
       <MarketValue>1500</MarketValue>
     </statBases>
     <costList>
-      <RoughGem>10</RoughGem>
+      <MS_RoughGem>10</MS_RoughGem>
     </costList>
     <comps>
       <li Class="CompProperties_Facility">
