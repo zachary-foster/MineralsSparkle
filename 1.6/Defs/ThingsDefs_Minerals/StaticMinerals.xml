@@ -34,8 +34,8 @@
     <!-- Other resources it might drop -->
     <randomlyDropResources>
       <li>
-        <ResourceDefName>MS_RoughGem</ResourceDefName>
-        <DropProbability>0.5</DropProbability>
+        <resourceDefName>MS_RoughGem</resourceDefName>
+        <dropProbability>0.5</dropProbability>
       </li>
     </randomlyDropResources>
     <!-- Minimum distance from the nearest settlement the inital spawn needs to be in order to be spawned at the maximum probablity -->
@@ -75,8 +75,8 @@
     <!-- Other resources it might drop -->
     <randomlyDropResources>
       <li>
-        <ResourceDefName>MS_RoughGem</ResourceDefName>
-        <DropProbability>1</DropProbability>
+        <resourceDefName>MS_RoughGem</resourceDefName>
+        <dropProbability>1</dropProbability>
       </li>
     </randomlyDropResources>
     <!-- Minimum distance from the nearest settlement the inital spawn needs to be in order to be spawned at the maximum probablity -->
@@ -117,8 +117,8 @@
     <!-- Other resources it might drop -->
     <randomlyDropResources>
       <li>
-        <ResourceDefName>MS_RoughGem</ResourceDefName>
-        <DropProbability>3.0</DropProbability>
+        <resourceDefName>MS_RoughGem</resourceDefName>
+        <dropProbability>3.0</dropProbability>
       </li>
     </randomlyDropResources>
     <!-- Minimum distance from the nearest settlement the inital spawn needs to be in order to be spawned at the maximum probablity -->
@@ -160,9 +160,9 @@
     <!-- Other resources it might drop -->
     <randomlyDropResources>
       <li>
-        <ResourceDefName>MS_RoughGem</ResourceDefName>
-        <DropProbability>3.0</DropProbability>
-        <MinMiningSkill>4</MinMiningSkill>
+        <resourceDefName>MS_RoughGem</resourceDefName>
+        <dropProbability>3.0</dropProbability>
+        <minMiningSkill>4</minMiningSkill>
       </li>
    </randomlyDropResources>
     <!-- Minimum distance from the nearest settlement the inital spawn needs to be in order to be spawned at the maximum probablity -->
@@ -203,9 +203,9 @@
     <!-- Other resources it might drop -->
     <randomlyDropResources>
       <li>
-        <ResourceDefName>MS_RoughGem</ResourceDefName>
-        <DropProbability>5.0</DropProbability>
-        <MinMiningSkill>4</MinMiningSkill>
+        <resourceDefName>MS_RoughGem</resourceDefName>
+        <dropProbability>5.0</dropProbability>
+        <minMiningSkill>4</minMiningSkill>
       </li>
     </randomlyDropResources>
     <!-- Minimum distance from the nearest settlement the inital spawn needs to be in order to be spawned at the maximum probablity -->
@@ -255,9 +255,9 @@
     <!-- Other resources it might drop -->
     <randomlyDropResources>
       <li>
-        <ResourceDefName>MS_RoughGem</ResourceDefName>
-        <DropProbability>7.0</DropProbability>
-        <MinMiningSkill>4</MinMiningSkill>
+        <resourceDefName>MS_RoughGem</resourceDefName>
+        <dropProbability>7.0</dropProbability>
+        <minMiningSkill>4</minMiningSkill>
       </li>
     </randomlyDropResources>
     <!-- Minimum distance from the nearest settlement the inital spawn needs to be in order to be spawned at the maximum probablity -->
@@ -279,23 +279,30 @@
     <!--For a given map, the minimum/maximum probablility a cluster will spawn for every possible location -->
     <minClusterProbability>0.002</minClusterProbability>
     <maxClusterProbability>0.006</maxClusterProbability>
-    <!-- Controls how extra clusters are added near assocaited ore-->
-    <associatedOres>
-      <li>MineableSteel</li>
-      <li>MR_SolidMineableSteel</li>
-    </associatedOres>
-    <nearAssociatedOreBonus>100</nearAssociatedOreBonus>
+    <!-- How nearby things or terrains affect spawn abundance -->
+    <nearbyThingAbundEffects>
+      <li>
+        <defNames>
+          <li>MineableSteel</li>
+          <li>MR_SolidMineableSteel</li>
+        </defNames>
+        <radius>2</radius>
+        <foundFactor>50</foundFactor>
+        <notFoundFactor>1</notFoundFactor>
+        <scaleByArea>true</scaleByArea>
+      </li>
+    </nearbyThingAbundEffects>
     <!-- Other resources it might drop -->
     <randomlyDropResources>
       <li>
-        <ResourceDefName>Steel</ResourceDefName>
-        <DropProbability>5</DropProbability>
-        <CountPerDrop>5</CountPerDrop>
+        <resourceDefName>Steel</resourceDefName>
+        <dropProbability>5</dropProbability>
+        <countPerDrop>5</countPerDrop>
       </li>
       <li>
-        <ResourceDefName>MS_RoughGem</ResourceDefName>
-        <DropProbability>0.5</DropProbability>
-        <MinMiningSkill>5</MinMiningSkill>
+        <resourceDefName>MS_RoughGem</resourceDefName>
+        <dropProbability>0.5</dropProbability>
+        <minMiningSkill>5</minMiningSkill>
       </li>
     </randomlyDropResources>
     <!-- Minimum distance from the nearest settlement the inital spawn needs to be in order to be spawned at the maximum probablity -->
@@ -317,14 +324,14 @@
     <!-- Other resources it might drop -->
     <randomlyDropResources>
       <li>
-        <ResourceDefName>MS_RoughGem</ResourceDefName>
-        <DropProbability>6.0</DropProbability>
-        <MinMiningSkill>5</MinMiningSkill>
+        <resourceDefName>MS_RoughGem</resourceDefName>
+        <dropProbability>6.0</dropProbability>
+        <minMiningSkill>5</minMiningSkill>
       </li>
       <li>
-        <ResourceDefName>MS_RoughUltrahardGem</ResourceDefName>
-        <DropProbability>4.0</DropProbability>
-        <MinMiningSkill>8</MinMiningSkill>
+        <resourceDefName>MS_RoughUltrahardGem</resourceDefName>
+        <dropProbability>4.0</dropProbability>
+        <minMiningSkill>8</minMiningSkill>
       </li>
     </randomlyDropResources>
     <!-- Minimum distance from the nearest settlement the inital spawn needs to be in order to be spawned at the maximum probablity -->
@@ -357,9 +364,9 @@
     <!-- Other resources it might drop -->
     <randomlyDropResources>
       <li>
-        <ResourceDefName>MS_RoughGem</ResourceDefName>
-        <DropProbability>6.0</DropProbability>
-        <MinMiningSkill>5</MinMiningSkill>
+        <resourceDefName>MS_RoughGem</resourceDefName>
+        <dropProbability>6.0</dropProbability>
+        <minMiningSkill>5</minMiningSkill>
       </li>
     </randomlyDropResources>
     <!-- Minimum distance from the nearest settlement the inital spawn needs to be in order to be spawned at the maximum probablity -->
@@ -384,14 +391,14 @@
     <!-- Other resources it might drop -->
     <randomlyDropResources>
       <li>
-        <ResourceDefName>MS_RoughUltrahardGem</ResourceDefName>
-        <DropProbability>10.0</DropProbability>
-        <MinMiningSkill>8</MinMiningSkill>
+        <resourceDefName>MS_RoughUltrahardGem</resourceDefName>
+        <dropProbability>10.0</dropProbability>
+        <minMiningSkill>8</minMiningSkill>
       </li>
       <li>
-        <ResourceDefName>MS_RoughGem</ResourceDefName>
-        <DropProbability>5.0</DropProbability>
-        <MinMiningSkill>5</MinMiningSkill>
+        <resourceDefName>MS_RoughGem</resourceDefName>
+        <dropProbability>5.0</dropProbability>
+        <minMiningSkill>5</minMiningSkill>
       </li>
     </randomlyDropResources>
     <!-- Minimum distance from the nearest settlement the inital spawn needs to be in order to be spawned at the maximum probablity -->
@@ -402,7 +409,7 @@
   <ThingDef Name="MS_UraniniteDeposit" ParentName="MF_MetalOxideBase" Class="MineralsFramework.ThingDef_StaticMineral">
     <defName>MS_UraniniteDeposit</defName>
     <label>Uranium Deposit</label>
-    <description>Formations of uranium oxide, a major uranium ore. Often assocaited with silver.</description>
+    <description>Formations of uranium oxide, a major uranium ore. Often associated with silver.</description>
     <graphicData>
       <texPath>Things/Mineral/UraniniteDeposit</texPath>
       <color>(127,120,102)</color>
@@ -422,25 +429,32 @@
     <!-- How  many squares each cluster will be -->
     <minClusterSize>1</minClusterSize>
     <maxClusterSize>10</maxClusterSize>
-    <!-- Controls how extra clusters are added near assocaited ore-->
-    <associatedOres>
-      <li>MineableUranium</li>
-      <li>MineableSilver</li>
-      <li>MR_SolidMineableUranium</li>
-      <li>MR_SolidMineableSilver</li>
-    </associatedOres>
-    <nearAssociatedOreBonus>50</nearAssociatedOreBonus>
+    <!-- How nearby things or terrains affect spawn abundance -->
+    <nearbyThingAbundEffects>
+      <li>
+        <defNames>
+          <li>MineableUranium</li>
+          <li>MineableSilver</li>
+          <li>MR_SolidMineableUranium</li>
+          <li>MR_SolidMineableSilver</li>
+        </defNames>
+        <radius>2</radius>
+        <foundFactor>50</foundFactor>
+        <notFoundFactor>1</notFoundFactor>
+        <scaleByArea>true</scaleByArea>
+      </li>
+    </nearbyThingAbundEffects>
     <!-- Other resources it might drop -->
     <randomlyDropResources>
       <li>
-        <ResourceDefName>Uranium</ResourceDefName>
-        <DropProbability>5</DropProbability>
-        <CountPerDrop>5</CountPerDrop>
+        <resourceDefName>Uranium</resourceDefName>
+        <dropProbability>5</dropProbability>
+        <countPerDrop>5</countPerDrop>
       </li>
       <li>
-        <ResourceDefName>MS_RoughGem</ResourceDefName>
-        <DropProbability>0.5</DropProbability>
-        <MinMiningSkill>5</MinMiningSkill>
+        <resourceDefName>MS_RoughGem</resourceDefName>
+        <dropProbability>0.5</dropProbability>
+        <minMiningSkill>5</minMiningSkill>
       </li>
     </randomlyDropResources>
     <!-- Minimum distance from the nearest settlement the inital spawn needs to be in order to be spawned at the maximum probablity -->

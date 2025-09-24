@@ -26,23 +26,23 @@
     <!-- Other resources it might drop -->
     <randomlyDropResources>
       <li>
-        <ResourceDefName>MS_BigQuartzCrystalSpecimen</ResourceDefName>
-        <DropProbability>0.5</DropProbability>
-        <CountPerDrop>1</CountPerDrop>
-        <MinMiningSkill>7</MinMiningSkill>
-        <Minified>true</Minified>
+        <resourceDefName>MS_BigQuartzCrystalSpecimen</resourceDefName>
+        <dropProbability>0.5</dropProbability>
+        <countPerDrop>1</countPerDrop>
+        <minMiningSkill>7</minMiningSkill>
+        <minified>true</minified>
       </li>
       <li>
-        <ResourceDefName>MS_RoughGem</ResourceDefName>
-        <DropProbability>5</DropProbability>
-        <CountPerDrop>1</CountPerDrop>
-        <MinMiningSkill>3</MinMiningSkill>
+        <resourceDefName>MS_RoughGem</resourceDefName>
+        <dropProbability>5</dropProbability>
+        <countPerDrop>1</countPerDrop>
+        <minMiningSkill>3</minMiningSkill>
       </li>
     </randomlyDropResources>
     <!-- Things this mineral replaces when a map is initialized -->
-    <ThingsToReplace>
+    <thingsToReplace>
       <li>QuartzCrystal</li>
-    </ThingsToReplace>
+    </thingsToReplace>
     <!-- Minimum distance from the nearest settlement the inital spawn needs to be in order to be spawned at the maximum probablity -->
     <otherSettlementMiningRadius>10</otherSettlementMiningRadius>
   </ThingDef>
@@ -112,23 +112,23 @@
     <!-- Other resources it might drop -->
     <randomlyDropResources>
       <li>
-        <ResourceDefName>MS_BigQuartzCrystalSpecimen</ResourceDefName>
-        <DropProbability>0.5</DropProbability>
-        <CountPerDrop>1</CountPerDrop>
-        <MinMiningSkill>7</MinMiningSkill>
-        <Minified>true</Minified>
+        <resourceDefName>MS_BigQuartzCrystalSpecimen</resourceDefName>
+        <dropProbability>0.5</dropProbability>
+        <countPerDrop>1</countPerDrop>
+        <minMiningSkill>7</minMiningSkill>
+        <minified>true</minified>
       </li>
       <li>
-        <ResourceDefName>MS_RoughGem</ResourceDefName>
-        <DropProbability>8</DropProbability>
-        <CountPerDrop>1</CountPerDrop>
-        <MinMiningSkill>3</MinMiningSkill>
+        <resourceDefName>MS_RoughGem</resourceDefName>
+        <dropProbability>8</dropProbability>
+        <countPerDrop>1</countPerDrop>
+        <minMiningSkill>3</minMiningSkill>
       </li>
     </randomlyDropResources>
     <!-- Things this mineral replaces when a map is initialized -->
-    <ThingsToReplace>
+    <thingsToReplace>
       <li>AmethystCrystal</li>
-    </ThingsToReplace>
+    </thingsToReplace>
     <!-- Minimum distance from the nearest settlement the inital spawn needs to be in order to be spawned at the maximum probablity -->
     <otherSettlementMiningRadius>15</otherSettlementMiningRadius>
   </ThingDef>

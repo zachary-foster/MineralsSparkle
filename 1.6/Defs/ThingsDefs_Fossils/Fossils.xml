@@ -1,56 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-  <ThingDef Name="MF_FossilBase" ParentName="MF_EmbeddedMineralBase" Class="MineralsFramework.ThingDef_StaticMineral" Abstract="True">
-    <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
-    </statBases>
-    <!-- The terrains this can appear on.-->
-    <allowedTerrains>
-      <li>Limestone_Rough</li>
-      <li>Sandstone_Rough</li>
-      <li>Slate_Rough</li>
-      <li>MR_ClaystoneBase_Rough</li>
-      <li>MR_MudstoneBase_Rough</li>
-      <li>Chalk_Rough</li>
-      <li>Jaspillite_Rough</li>
-      <li>Lignite_Rough</li>
-      <li>Siltstone_Rough</li>
-    </allowedTerrains>
-    <!-- If the primary color is based on the stone below it -->
-    <coloredByTerrain>true</coloredByTerrain>
-    <!-- Tags which determine how some options behave  -->
-    <tags>
-      <li>fossil</li>
-      <li>NoticeMineral_Event</li>
-    </tags>
-    <!-- How easy it is to mine -->
-    <mineSpeedFactor>0.05</mineSpeedFactor>
-  </ThingDef>
-
-
-  <ThingDef Name="MF_BigFossilBase" ParentName="MF_FossilBase" Class="MineralsFramework.ThingDef_StaticMineral" Abstract="True">
-    <!-- The maximum number of images that will be printed per square -->
-    <maxMeshCount>1</maxMeshCount>
-    <!-- Things this mineral replaces when a map is initialized -->
-    <ThingsToReplace>
-      <li>MS_SmallFossil</li>
-    </ThingsToReplace>
-    <!-- The radius that will be searched to replace things -->
-    <replaceRadius>1</replaceRadius>
-    <!-- The minmum propotion of things in radius to replace for a replacement to happen -->
-    <replaceThreshold>0.4</replaceThreshold>
-    <!-- If it replaces everything -->
-    <replaceAll>false</replaceAll>
-    <!-- If it must replace something in order to spawned -->
-    <mustReplace>false</mustReplace>
-    <!-- Tags which determine how some options behave  -->
-    <tags>
-      <li>big_mineral</li>
-    </tags>
-  </ThingDef>
-
-
+  
   <ThingDef Name="MS_SmallFossil" ParentName="MF_FossilBase" Class="MineralsFramework.ThingDef_StaticMineral">
     <defName>MS_SmallFossil</defName>
     <label>Small Fossils</label>
@@ -95,10 +46,10 @@
     <!-- Other resources it might drop -->
     <randomlyDropResources>
       <li>
-        <ResourceDefName>MS_SmallFossilResource</ResourceDefName>
-        <DropProbability>2.0</DropProbability>
-        <CountPerDrop>1</CountPerDrop>
-        <MinMiningSkill>5</MinMiningSkill>
+        <resourceDefName>MS_SmallFossilResource</resourceDefName>
+        <dropProbability>2.0</dropProbability>
+        <countPerDrop>1</countPerDrop>
+        <minMiningSkill>5</minMiningSkill>
       </li>
     </randomlyDropResources>
     <!-- Minimum distance from the nearest settlement the inital spawn needs to be in order to be spawned at the maximum probablity -->
@@ -152,17 +103,17 @@
     <!-- Other resources it might drop -->
     <randomlyDropResources>
       <li>
-        <ResourceDefName>MS_MediumFossilSpecimen</ResourceDefName>
-        <DropProbability>0.5</DropProbability>
-        <CountPerDrop>1</CountPerDrop>
-        <MinMiningSkill>10</MinMiningSkill>
-        <Minified>true</Minified>
+        <resourceDefName>MS_MediumFossilSpecimen</resourceDefName>
+        <dropProbability>0.5</dropProbability>
+        <countPerDrop>1</countPerDrop>
+        <minMiningSkill>10</minMiningSkill>
+        <minified>true</minified>
       </li>
       <li>
-        <ResourceDefName>MS_SmallFossilResource</ResourceDefName>
-        <DropProbability>4.0</DropProbability>
-        <CountPerDrop>1</CountPerDrop>
-        <MinMiningSkill>5</MinMiningSkill>
+        <resourceDefName>MS_SmallFossilResource</resourceDefName>
+        <dropProbability>4.0</dropProbability>
+        <countPerDrop>1</countPerDrop>
+        <minMiningSkill>5</minMiningSkill>
       </li>
     </randomlyDropResources>
     <!-- Minimum distance from the nearest settlement the inital spawn needs to be in order to be spawned at the maximum probablity -->
@@ -259,25 +210,25 @@
     <!-- Other resources it might drop -->
     <randomlyDropResources>
       <li>
-        <ResourceDefName>MS_LargeFossilSpecimen</ResourceDefName>
-        <DropProbability>0.5</DropProbability>
-        <CountPerDrop>1</CountPerDrop>
-        <MinMiningSkill>15</MinMiningSkill>
-        <Minified>true</Minified>
+        <resourceDefName>MS_LargeFossilSpecimen</resourceDefName>
+        <dropProbability>0.5</dropProbability>
+        <countPerDrop>1</countPerDrop>
+        <minMiningSkill>15</minMiningSkill>
+        <minified>true</minified>
       </li>
       <li>
-        <ResourceDefName>MS_SmallFossilResource</ResourceDefName>
-        <DropProbability>6.0</DropProbability>
-        <CountPerDrop>1</CountPerDrop>
-        <MinMiningSkill>5</MinMiningSkill>
+        <resourceDefName>MS_SmallFossilResource</resourceDefName>
+        <dropProbability>6.0</dropProbability>
+        <countPerDrop>1</countPerDrop>
+        <minMiningSkill>5</minMiningSkill>
       </li>
     </randomlyDropResources>
     <!-- If the primary color is based on the stone below it -->
     <coloredByTerrain>true</coloredByTerrain>
     <!-- Things this mineral replaces when a map is initialized -->
-    <ThingsToReplace>
+    <thingsToReplace>
       <li>MS_SmallFossil</li>
-    </ThingsToReplace>
+    </thingsToReplace>
     <!-- Minimum distance from the nearest settlement the inital spawn needs to be in order to be spawned at the maximum probablity -->
     <otherSettlementMiningRadius>15</otherSettlementMiningRadius>
     <!-- How easy it is to mine -->
